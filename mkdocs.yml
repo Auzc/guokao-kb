@@ -1,0 +1,142 @@
+﻿site_name: 2026国考知识库
+site_description: 国家公务员考试备考知识库 — 行测·申论·真题·模考
+site_url: https://guokao-kb.pages.dev
+repo_url: https://github.com/YOUR_USERNAME/guokao-kb
+repo_name: guokao-kb
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到暗色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到亮色模式
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.indexes
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+    - content.tabs.link
+    - toc.follow
+  icon:
+    repo: fontawesome/brands/github
+  custom_dir: overrides
+
+plugins:
+  - search:
+      separator: '[\s\-\.\u4e00-\u9fff]+'  # 中文分词
+      lang:
+        - zh
+        - en
+  - tags:
+      tags_file: tags.html
+  - glightbox
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: false
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR_USERNAME/guokao-kb
+  generator: false
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX  # 可选，替换为你的 GA4 ID
+
+extra_css:
+  - assets/stylesheets/extra.css
+
+nav:
+  - 首页: index.md
+  - 备考规划:
+    - overview.md
+    - timeline.md
+    - resources.md
+  - 行测:
+    - xingce/index.md
+    - 资料分析:
+      - xingce/ziliao/index.md
+      - 速算技巧: xingce/ziliao/suansuan.md
+      - 公式体系: xingce/ziliao/gongshi.md
+      - 真题精讲: xingce/ziliao/zhenti.md
+    - 判断推理:
+      - xingce/panduan/index.md
+      - 图形推理: xingce/panduan/tuxing.md
+      - 逻辑判断: xingce/panduan/luoji.md
+      - 类比推理: xingce/panduan/leibi.md
+      - 定义判断: xingce/panduan/dingyi.md
+    - 言语理解:
+      - xingce/yanyu/index.md
+      - 逻辑填空: xingce/yanyu/tiankong.md
+      - 片段阅读: xingce/yanyu/pianduan.md
+    - 数量关系:
+      - xingce/shuliang/index.md
+      - 工程问题: xingce/shuliang/gongcheng.md
+      - 排列组合: xingce/shuliang/pailie.md
+    - 常识判断:
+      - xingce/changshi/index.md
+      - 时政积累: xingce/changshi/shizheng.md
+  - 申论:
+    - shenlun/index.md
+    - 归纳概括:
+      - shenlun/guina/index.md
+    - 综合分析:
+      - shenlun/zonghe/index.md
+    - 提出对策:
+      - shenlun/tichu/index.md
+    - 贯彻执行:
+      - shenlun/guanche/index.md
+    - 大作文:
+      - shenlun/dazuowen/index.md
+  - 真题库:
+    - zhenti/index.md
+  - 模考记录:
+    - mokao/index.md
+  - 迭代日志:
+    - changelog.md
+

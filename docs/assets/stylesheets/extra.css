@@ -1,0 +1,26 @@
+﻿/* 额外样式 */
+
+/* 代码块圆角 */
+.highlight > pre {
+  border-radius: 8px;
+}
+
+/* 标签颜色 */
+.md-tag {
+  border-radius: 4px;
+}
+
+/* admonition 圆角 */
+.admonition {
+  border-radius: 8px;
+}
+
+/* 表格行高 */
+table th, table td {
+  padding: 8px 12px;
+}
+
+/* mermaid 图表居中 */
+.mermaid {
+  text-align: center;
+}
