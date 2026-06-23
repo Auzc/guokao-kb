@@ -1,0 +1,448 @@
+samples:
+  - id: bilibili-liuwenchao-ziliao
+    type: video_course
+    title: 资料分析系统课
+    source: B站
+    author: 刘文超
+    url: https://www.bilibili.com/video/BV1f4411C7z5/
+    modules: [xingce/ziliao]
+    tags: [资料分析, 基础, 系统课]
+    credibility: high
+    operability: high
+    verifiability: medium
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 多攻略中被高频引用，适合打基础。
+
+  - id: bilibili-gaozhao-ziliao
+    type: video_course
+    title: 2026高照资料分析实战理论班（16讲）
+    source: B站
+    author: 高照
+    url: https://www.bilibili.com/video/BV198736AEMu/
+    modules: [xingce/ziliao]
+    tags: [资料分析, 实战, 速算]
+    credibility: high
+    operability: high
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 9
+    consistency_score: 8
+    notes: 偏实战技巧，适合从会做到快做。
+
+  - id: bilibili-liuwenchao-panduan
+    type: video_course
+    title: 判断推理系统课
+    source: B站
+    author: 刘文超
+    url: https://www.bilibili.com/video/BV12t4115735/
+    modules: [xingce/panduan]
+    tags: [判断推理, 图形, 逻辑, 类比, 定义]
+    credibility: high
+    operability: high
+    verifiability: medium
+    coverage_score: 8
+    actionability_score: 8
+    consistency_score: 8
+    notes: 适合作为判断推理统一入口。
+
+  - id: bilibili-huoke-yanyu
+    type: video_course
+    title: 言语理解与表达系统课
+    source: B站
+    author: 霍克
+    url: https://www.bilibili.com/video/BV11a4y1j7kq/
+    modules: [xingce/yanyu]
+    tags: [言语理解, 逻辑填空, 片段阅读]
+    credibility: high
+    operability: high
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 言语主流通用课程之一。
+
+  - id: bilibili-wangyan-shuliang
+    type: video_course
+    title: 王炎数量关系讲练大满贯
+    source: B站
+    author: 王炎
+    url: https://www.bilibili.com/video/BV14TaJzwEm4/
+    modules: [xingce/shuliang]
+    tags: [数量关系, 工程, 排列组合, 利润]
+    credibility: high
+    operability: high
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 数量关系主流通用入口之一，适合有数学基础的考生。
+
+  - id: bilibili-fenbi-system
+    type: video_course
+    title: 2027粉笔980系统班行测申论全集
+    source: B站
+    author: 粉笔
+    url: https://www.bilibili.com/video/BV1TCjt6vEgb/
+    modules: [xingce/ziliao, xingce/panduan, xingce/yanyu, xingce/shuliang, xingce/changshi, shenlun/guina, shenlun/zonghe, shenlun/tichu, shenlun/guanche, shenlun/dazuowen]
+    tags: [系统班, 全科, 基础]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 9
+    actionability_score: 7
+    consistency_score: 8
+    notes: 大机构系统课入口，适合需要统一框架和题库体系的考生。
+
+  - id: bilibili-gongkao-xiaoma-ge-shenlun
+    type: video_course
+    title: 申论系统课（全国通用）
+    source: B站
+    author: 公考小马哥
+    url: https://www.bilibili.com/video/BV1YM4y137h3/
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/tichu, shenlun/guanche, shenlun/dazuowen]
+    tags: [申论, 全题型, 系统课]
+    credibility: high
+    operability: high
+    verifiability: medium
+    coverage_score: 8
+    actionability_score: 8
+    consistency_score: 8
+    notes: 申论全题型通识入口，适合先建立框架。
+
+  - id: bilibili-zhengyuefeng-shenlun
+    type: video_course
+    title: 精讲版申论系统课
+    source: B站
+    author: 郑岳峰
+    url: https://www.bilibili.com/video/BV14P411C7YM/
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/tichu, shenlun/guanche, shenlun/dazuowen]
+    tags: [申论, 精讲, 框架]
+    credibility: high
+    operability: high
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 可作为申论第二参考源，适合对比不同老师思路。
+
+  - id: bilibili-hechong-shenlun-batch
+    type: video_course
+    title: 2027申论系统课（含人工批改）
+    source: B站
+    author: 贺冲
+    url: https://www.bilibili.com/video/BV1x9HGzHEiX/
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/tichu, shenlun/guanche, shenlun/dazuowen]
+    tags: [申论, 批改, 提分]
+    credibility: high
+    operability: high
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 9
+    consistency_score: 7
+    notes: 人工批改价值高，适合需要反馈闭环的考生。
+
+  - id: bilibili-bailu-shenlun-zhenti
+    type: video_course
+    title: 白鹭老师讲申论——真题100讲
+    source: B站
+    author: 白鹭
+    url: https://www.bilibili.com/video/BV1uP4y1s7hj/
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/tichu, shenlun/guanche, shenlun/dazuowen]
+    tags: [申论, 真题, 精讲]
+    credibility: high
+    operability: high
+    verifiability: medium
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 真题导向，适合方法到题目的转化。
+
+  - id: guide-common-xingce-order
+    type: guide_pattern
+    title: 行测主流通关顺序共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/ziliao, xingce/panduan, xingce/yanyu, xingce/shuliang, xingce/changshi]
+    tags: [路径, 顺序, 提分]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 9
+    actionability_score: 9
+    consistency_score: 9
+    notes: 资料分析优先、判断推理次之、言语再次之，属于高频共识。
+
+  - id: guide-common-shenlun-first
+    type: guide_pattern
+    title: 申论先题型后套卷共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/tichu, shenlun/guanche, shenlun/dazuowen]
+    tags: [申论, 路径, 归纳概括, 贯彻执行]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 9
+    actionability_score: 9
+    consistency_score: 9
+    notes: 先练归纳概括和贯彻执行，再进大作文，是主流通关顺序。
+
+  - id: guide-shuliang-strategy
+    type: guide_pattern
+    title: 数量关系策略性取舍共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/shuliang]
+    tags: [数量关系, 策略, 取舍]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 9
+    actionability_score: 9
+    consistency_score: 9
+    notes: 时间有限时优先做工程、利润、行程基础题，难题猜选。
+
+  - id: guide-changshi-fragment
+    type: guide_pattern
+    title: 常识判断碎片积累共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/changshi]
+    tags: [常识, 时政, 碎片]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 9
+    actionability_score: 8
+    consistency_score: 9
+    notes: 常识不建议大量专项投入，时政和法律优先，碎片时间为主。
+
+  - id: guide-zhenti-yearly
+    type: guide_pattern
+    title: 近5年真题优先共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [zhenti]
+    tags: [真题, 年份, 优先级]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 9
+    actionability_score: 9
+    consistency_score: 9
+    notes: 先做近5年国考真题，再补省考和模拟题。
+
+  - id: guide-mokao-weekly
+    type: guide_pattern
+    title: 模考周频共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [mokao]
+    tags: [模考, 周频, 复盘]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 冲刺阶段每周2-3次模考，配合错题复盘表。
+
+  - id: guide-time-allocation-xingce
+    type: guide_pattern
+    title: 行测时间分配共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/ziliao, xingce/panduan, xingce/yanyu, xingce/shuliang, xingce/changshi]
+    tags: [时间分配, 考场策略]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 常识10-15分钟，资料25-30分钟，判断30-35分钟，言语30-35分钟，数量剩余时间。
+
+  - id: guide-weakness-loop
+    type: guide_pattern
+    title: 错题闭环复盘共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/ziliao, xingce/panduan, xingce/yanyu, shenlun/guina, shenlun/guanche]
+    tags: [复盘, 错题, 闭环]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 9
+    notes: 建立“错题-错因-回补模块-再测”的学习闭环。
+
+  - id: guide-material-reading
+    type: guide_pattern
+    title: 申论材料阅读共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/tichu, shenlun/guanche]
+    tags: [申论, 材料阅读, 要点提取]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 9
+    notes: 先看问题再读材料，分层标注问题/原因/对策/效果。
+
+  - id: guide-essay-framework
+    type: guide_pattern
+    title: 大作文结构稳定共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/dazuowen]
+    tags: [大作文, 结构, 审题]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 7
+    actionability_score: 9
+    consistency_score: 8
+    notes: 推荐五段式结构，先练段落论证，再练完整成文。
+
+  - id: guide-official-doc-formats
+    type: guide_pattern
+    title: 贯彻执行格式共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/guanche]
+    tags: [贯彻执行, 格式, 文种]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 7
+    actionability_score: 9
+    consistency_score: 8
+    notes: 高频文种先做模板卡，避免格式丢分。
+
+  - id: guide-logic-structured-practice
+    type: guide_pattern
+    title: 判断推理分题型训练共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/panduan]
+    tags: [判断推理, 图形, 逻辑, 类比, 定义]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 建议按题型拆练，图形和逻辑优先建立规律化思维。
+
+  - id: guide-changshi-priority
+    type: guide_pattern
+    title: 常识判断优先主题共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/changshi]
+    tags: [常识, 法律, 时政]
+    credibility: high
+    operability: medium
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 时政与法律优先，科技人文作为补充。
+
+  - id: guide-shuliang-basic-first
+    type: guide_pattern
+    title: 数量关系基础题优先共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/shuliang]
+    tags: [数量关系, 工程, 利润, 行程]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 时间有限时优先工程、利润、行程基础题。
+
+  - id: guide-weekend-simulation
+    type: guide_pattern
+    title: 周末真题模拟共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [zhenti, mokao]
+    tags: [模拟, 周末, 套卷]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 工作日练专项，周末做整卷模拟与复盘。
+
+  - id: guide-shenlun-writing-language
+    type: guide_pattern
+    title: 申论语言规范化共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/tichu, shenlun/guanche, shenlun/dazuowen]
+    tags: [申论, 语言, 规范]
+    credibility: high
+    operability: medium
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 避免口语化，使用政策治理表达。
+
+  - id: guide-research-expand-sample
+    type: guide_pattern
+    title: 研究层扩样本共识
+    source: 研究方法
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [research]
+    tags: [研究, 样本, 量化]
+    credibility: medium
+    operability: high
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 样本量提升到30~50可增强路径置信度。
+
+  - id: bilibili-chenji-shenlun
+    type: video_course
+    title: 申论真题方法课（示例样本）
+    source: B站
+    author: 综合归纳
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/guanche]
+    tags: [申论, 真题, 方法]
+    credibility: medium
+    operability: high
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 用于补强申论方法到真题转化的样本类型。
