@@ -24,57 +24,23 @@
         font-weight: 700;
         margin-bottom: 0.5rem;
       }
-      .home-hero p {
-        font-size: 1.05rem;
-        opacity: 0.85;
-        margin-top: 0.5rem;
-      }
-      .home-stats {
-        display: flex;
-        justify-content: center;
-        gap: 2rem;
-        margin-top: 1.5rem;
-      }
-      .home-stat { text-align: center; }
-      .home-stat-number {
-        font-size: 2rem;
-        font-weight: 700;
-        color: white;
-        line-height: 1;
-      }
-      .home-stat-label {
-        font-size: 0.8rem;
-        opacity: 0.7;
-        margin-top: 0.25rem;
+      .home-tagline {
+        font-size: 1rem;
+        opacity: 0.8;
+        margin-top: 0.35rem;
+        letter-spacing: 0.04em;
       }
 
       @media screen and (max-width: 48em) {
         .home-hero { padding: 2rem 1rem; }
         .home-hero h1 { font-size: 1.5rem; }
-        .home-hero p { font-size: 0.9rem; }
-        .home-stats { gap: 1.5rem; }
-        .home-stat-number { font-size: 1.6rem; }
-        .home-stat-label { font-size: 0.7rem; }
+        .home-tagline { font-size: 0.9rem; }
       }
     </style>
 
     <section class="home-hero">
       <h1>📘 2026 国考知识库</h1>
-      <p>行测 · 申论 · 真题 · 模考</p>
-      <div class="home-stats">
-        <div class="home-stat">
-          <div class="home-stat-number">90+</div>
-          <div class="home-stat-label">视频</div>
-        </div>
-        <div class="home-stat">
-          <div class="home-stat-number">39</div>
-          <div class="home-stat-label">文档</div>
-        </div>
-        <div class="home-stat">
-          <div class="home-stat-number">10</div>
-          <div class="home-stat-label">模块</div>
-        </div>
-      </div>
+      <p class="home-tagline">系统备考 · 按需查阅 · 渐进深入</p>
     </section>
   {% endif %}
 {% endblock %}

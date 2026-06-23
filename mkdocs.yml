@@ -55,8 +55,7 @@ plugins:
       lang:
         - zh
         - en
-  - tags:
-      tags_file: tags.html
+  - tags
   - glightbox
 
 markdown_extensions:
@@ -110,49 +109,45 @@ extra_javascript:
 
 nav:
   - 首页: index.md
+  - 知识库:
+    - kb/xingce/index.md
+    - 资料分析:
+      - kb/xingce/ziliao/index.md
+      - 速算技巧: kb/xingce/ziliao/suansuan.md
+      - 公式体系: kb/xingce/ziliao/gongshi.md
+      - 真题精讲: kb/xingce/ziliao/zhenti.md
+    - 判断推理:
+      - kb/xingce/panduan/index.md
+      - 图形推理: kb/xingce/panduan/tuxing.md
+      - 逻辑判断: kb/xingce/panduan/luoji.md
+      - 类比推理: kb/xingce/panduan/leibi.md
+      - 定义判断: kb/xingce/panduan/dingyi.md
+    - 言语理解:
+      - kb/xingce/yanyu/index.md
+      - 逻辑填空: kb/xingce/yanyu/tiankong.md
+      - 片段阅读: kb/xingce/yanyu/pianduan.md
+    - 数量关系:
+      - kb/xingce/shuliang/index.md
+      - 工程问题: kb/xingce/shuliang/gongcheng.md
+      - 排列组合: kb/xingce/shuliang/pailie.md
+    - 常识判断:
+      - kb/xingce/changshi/index.md
+      - 时政积累: kb/xingce/changshi/shizheng.md
+    - 申论:
+      - kb/shenlun/index.md
+      - 归纳概括: kb/shenlun/guina/index.md
+      - 综合分析: kb/shenlun/zonghe/index.md
+      - 提出对策: kb/shenlun/tichu/index.md
+      - 贯彻执行: kb/shenlun/guanche/index.md
+      - 大作文: kb/shenlun/dazuowen/index.md
+    - 真题库: kb/zhenti/index.md
+    - 模考记录: kb/mokao/index.md
+  - 博客:
+    - blog/index.md
+    - blog/posts/2026-06-23-day1.md
+    - blog/posts/2026-06-24-day2.md
   - 备考规划:
     - overview.md
     - timeline.md
     - resources.md
-  - 行测:
-    - xingce/index.md
-    - 资料分析:
-      - xingce/ziliao/index.md
-      - 速算技巧: xingce/ziliao/suansuan.md
-      - 公式体系: xingce/ziliao/gongshi.md
-      - 真题精讲: xingce/ziliao/zhenti.md
-    - 判断推理:
-      - xingce/panduan/index.md
-      - 图形推理: xingce/panduan/tuxing.md
-      - 逻辑判断: xingce/panduan/luoji.md
-      - 类比推理: xingce/panduan/leibi.md
-      - 定义判断: xingce/panduan/dingyi.md
-    - 言语理解:
-      - xingce/yanyu/index.md
-      - 逻辑填空: xingce/yanyu/tiankong.md
-      - 片段阅读: xingce/yanyu/pianduan.md
-    - 数量关系:
-      - xingce/shuliang/index.md
-      - 工程问题: xingce/shuliang/gongcheng.md
-      - 排列组合: xingce/shuliang/pailie.md
-    - 常识判断:
-      - xingce/changshi/index.md
-      - 时政积累: xingce/changshi/shizheng.md
-  - 申论:
-    - shenlun/index.md
-    - 归纳概括:
-      - shenlun/guina/index.md
-    - 综合分析:
-      - shenlun/zonghe/index.md
-    - 提出对策:
-      - shenlun/tichu/index.md
-    - 贯彻执行:
-      - shenlun/guanche/index.md
-    - 大作文:
-      - shenlun/dazuowen/index.md
-  - 真题库:
-    - zhenti/index.md
-  - 模考记录:
-    - mokao/index.md
-  - 迭代日志:
-    - changelog.md
+  - 迭代日志: changelog.md
