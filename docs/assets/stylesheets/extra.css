@@ -947,3 +947,186 @@
     font-size: 0.95rem;
   }
 }
+
+
+/* ============================================
+   关联博客样式 — 知识库页面底部展示
+   ============================================ */
+
+.related-posts {
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--md-border);
+}
+
+.related-posts__title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--md-primary-fg);
+  margin-bottom: 0.75rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.related-posts__title::before {
+  content: '📝';
+  font-size: 1.1rem;
+}
+
+.related-posts__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.65rem 0.85rem;
+  background: var(--md-surface);
+  border: 1px solid var(--md-border);
+  border-radius: var(--md-radius);
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+  text-decoration: none;
+  color: inherit;
+}
+
+.related-post:hover {
+  background: var(--md-accent-bg);
+  box-shadow: var(--md-shadow-sm);
+}
+
+.related-post__date {
+  font-size: 0.75rem;
+  color: var(--md-text--muted);
+  font-family: 'JetBrains Mono', monospace;
+  white-space: nowrap;
+  min-width: 5rem;
+}
+
+.related-post__title {
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--md-text);
+  flex: 1;
+}
+
+.related-post__summary {
+  font-size: 0.78rem;
+  color: var(--md-text--secondary);
+  margin-top: 0.15rem;
+}
+
+/* --- 学习轨迹（首页） --- */
+.learning-track {
+  margin: 1.5rem 0;
+}
+
+.learning-track__title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--md-primary-fg);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.learning-track__title::before {
+  content: '📈';
+  font-size: 1.2rem;
+}
+
+.learning-track__list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.learning-track__item {
+  display: flex;
+  gap: 1rem;
+  padding: 1rem;
+  background: var(--md-surface);
+  border: 1px solid var(--md-border);
+  border-radius: var(--md-radius-lg);
+  box-shadow: var(--md-shadow-sm);
+  transition: box-shadow 0.2s ease;
+}
+
+.learning-track__item:hover {
+  box-shadow: var(--md-shadow-md);
+}
+
+.learning-track__date {
+  font-size: 0.8rem;
+  color: var(--md-text--muted);
+  font-family: 'JetBrains Mono', monospace;
+  white-space: nowrap;
+  min-width: 5rem;
+  padding-top: 0.15rem;
+}
+
+.learning-track__content {
+  flex: 1;
+}
+
+.learning-track__item-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+
+.learning-track__item-title a {
+  color: var(--md-primary-fg);
+  text-decoration: none;
+  transition: color 0.15s ease;
+}
+
+.learning-track__item-title a:hover {
+  color: var(--md-accent-fg);
+}
+
+.learning-track__item-summary {
+  font-size: 0.82rem;
+  color: var(--md-text--secondary);
+  margin: 0;
+  line-height: 1.5;
+}
+
+.learning-track__item-module {
+  display: inline-block;
+  padding: 0.1rem 0.45rem;
+  border-radius: 3px;
+  font-size: 0.65rem;
+  font-weight: 500;
+  background: var(--md-accent-bg);
+  color: var(--md-accent-fg);
+  margin-top: 0.35rem;
+}
+
+/* --- 移动端优化 --- */
+@media screen and (max-width: 48em) {
+  .related-post {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+    padding: 0.5rem 0.75rem;
+  }
+
+  .related-post__date {
+    min-width: auto;
+  }
+
+  .learning-track__item {
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0.85rem;
+  }
+
+  .learning-track__date {
+    min-width: auto;
+  }
+}

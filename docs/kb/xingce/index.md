@@ -42,3 +42,25 @@ graph LR
 3. 判断推理
 4. 言语理解
 5. 数量关系（剩余时间做，挑会的先做）
+
+## 相关学习记录
+
+<div class="related-posts">
+  <div class="related-posts__title">关联博客文章</div>
+  <div class="related-posts__list">
+    <a class="related-post" href="/blog/posts/2026-06-24-day2/">
+      <span class="related-post__date">2026-06-24</span>
+      <div>
+        <div class="related-post__title">Day 2：资料分析速算入门</div>
+        <div class="related-post__summary">学习截位直除、特征数字法、错位加减</div>
+      </div>
+    </a>
+    <a class="related-post" href="/blog/posts/2026-06-23-day1/">
+      <span class="related-post__date">2026-06-23</span>
+      <div>
+        <div class="related-post__title">Day 1：国考入门认知</div>
+        <div class="related-post__summary">行测五大模块、申论五大题型、备考节奏</div>
+      </div>
+    </a>
+  </div>
+</div>
