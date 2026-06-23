@@ -1,10 +1,10 @@
-﻿---
+---
 title: 归纳概括
 description: 申论归纳概括题型备考笔记
 tags: [申论, 归纳概括]
 date: 2026-06-23
-iteration: 1
-status: draft
+iteration: 2
+status: done
 category: shenlun/guina
 ---
 
@@ -18,6 +18,18 @@ category: shenlun/guina
 2. **找点**：逐段阅读材料，标注关键词句
 3. **加工**：合并同类项，提炼关键词，分条列点
 4. **书写**：总括句 + 分条要点（每条控制在1-2行）
+
+## 主流通关建议（基于样本库）
+
+- 归纳概括是申论基础能力，建议先把它练稳再进入综合分析和贯彻执行。
+- 练习节奏建议：先单题型精练，再进入真题材料拆解，最后上套卷。
+- 主流通用样本显示：申论全题型系统课 + 真题精讲课组合最稳妥。
+
+## 样本支持度
+
+- 课程样本：bilibili-gongkao-xiaoma-ge-shenlun、bilibili-bailu-shenlun-zhenti。
+- 路径样本：guide-common-shenlun-first。
+- 结论可信度：高（先题型后套卷是主流通关顺序）。
 
 ## B站视频资源
 

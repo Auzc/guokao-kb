@@ -157,4 +157,8 @@ nav:
     - overview.md
     - timeline.md
     - resources.md
+  - 样本与研究:
+    - research/index.md
+    - 主流通用路径图: research/pathway.md
   - 迭代日志: changelog.md
+
