@@ -1,46 +1,72 @@
 ﻿---
 title: 判断推理
-description: 行测判断推理模块备考笔记
+description: 行测第二大模块，系统学习后正确率高
 tags: [行测, 判断推理]
 date: 2026-06-23
-iteration: 1
-status: draft
-category: xingce/panduan
+iteration: 2
+status: done
+module: xingce/panduan
 ---
 
 # 判断推理
 
-## 知识体系
+> 判断推理共 40 题，是行测题量最大的模块，系统学习后正确率可达 80%+。
 
-| 专题 | 状态 | 文档 |
-|------|------|------|
-| 图形推理 | 📝 待完善 | [图形推理](tuxing.md) |
-| 逻辑判断 | 📝 待完善 | [逻辑判断](luoji.md) |
-| 类比推理 | 📝 待完善 | [类比推理](leibi.md) |
-| 定义判断 | 📝 待完善 | [定义判断](dingyi.md) |
+## 模块特点
+
+| 维度 | 说明 |
+|------|------|
+| 题量 | 40 题（图形推理 10 + 定义判断 10 + 类比推理 10 + 逻辑判断 10） |
+| 分值 | 约 26 分 |
+| 建议用时 | 30-35 分钟 |
+| 提分难度 | ⭐⭐ 低（方法+练习即可） |
+| 目标正确率 | 80%+（32 题以上） |
+
+## 四大题型
+
+| 题型 | 题量 | 特点 | 链接 |
+|------|------|------|------|
+| 图形推理 | 10 题 | 找规律，空间想象 | [图形推理](tuxing.md) |
+| 定义判断 | 10 题 | 阅读理解，匹配选项 | [定义判断](dingyi.md) |
+| 类比推理 | 10 题 | 词语关系，快速判断 | [类比推理](leibi.md) |
+| 逻辑判断 | 10 题 | 逻辑推理，论证分析 | [逻辑判断](luoji.md) |
+
+## 学习路径
+
+```mermaid
+graph LR
+    A[图形推理] --> B[定义判断]
+    B --> C[类比推理]
+    C --> D[逻辑判断]
+    D --> E[真题综合]
+    style A fill:#4CAF50,color:#fff
+    style E fill:#FF9800,color:#fff
+```
+
+## 建议学习顺序
+
+1. **图形推理**（入门简单，建立信心）
+2. **定义判断**（纯阅读，无技巧依赖）
+3. **类比推理**（快速提分）
+4. **逻辑判断**（难度最大，放最后）
 
 ## B站视频资源
 
-**系统课**
+- [判断推理系统课](https://www.bilibili.com/video/BV12t4115735/) — 刘文超 — 系统讲解四大题型
+- [判断推理全新系统课](https://www.bilibili.com/video/BV1Y64y1o7r9/) — 更新版课程
+- [图形推理专项](https://www.bilibili.com/video/BV1vekYB4EvG/) — 图形规律总结
 
-- [判断推理系统课](https://www.bilibili.com/video/BV12t4115735/) — 刘文超
-- [判断推理全新系统课](https://www.bilibili.com/video/BV1Y64y1o7r9/)
-- [2027年判断推理系统课](https://www.bilibili.com/video/BV1uDjV6eESr/) — 郝曜华
+## 相关学习记录
 
-**图形推理**
-
-- [【图推24诀】](https://www.bilibili.com/video/BV1nGFmzSEVs/) — 逻辑薛睿
-- [10分钟拿下特征图形所有考点](https://www.bilibili.com/video/BV1934y1N7ri/) — 笔航公考刘二瑞
-
-**逻辑判断**
-
-- [花生十三加强削弱](https://www.bilibili.com/video/BV1SPXhBvEu3/) — 万木春
-- [加强削弱经验分享](https://www.bilibili.com/video/BV1N14y1V7kp/) — 陈怀安
-
-**类比推理**
-
-- [类比推理技巧课——16种题型49个技巧](https://www.bilibili.com/video/BV1iK421t7pB/) — 公考仰军
-
-**定义判断**
-
-- [定义判断冲刺100%正确率](https://www.bilibili.com/video/BV1px4y1t74A/)
+<div class="related-posts">
+  <div class="related-posts__title">关联博客文章</div>
+  <div class="related-posts__list">
+    <a class="related-post" href="/blog/posts/2026-06-23-day1/">
+      <span class="related-post__date">2026-06-23</span>
+      <div>
+        <div class="related-post__title">Day 1：国考入门认知</div>
+        <div class="related-post__summary">行测五大模块、申论五大题型、备考节奏</div>
+      </div>
+    </a>
+  </div>
+</div>

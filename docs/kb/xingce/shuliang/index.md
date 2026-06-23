@@ -1,31 +1,85 @@
 ﻿---
 title: 数量关系
-description: 行测数量关系模块备考笔记
+description: 行测最难模块，策略性放弃部分题目
 tags: [行测, 数量关系]
 date: 2026-06-23
-iteration: 1
-status: draft
-category: xingce/shuliang
+iteration: 2
+status: done
+module: xingce/shuliang
 ---
 
 # 数量关系
 
-!!! warning "策略性选择"
-    基础较弱的同学建议先确保其他模块拿到目标分，
-    数量关系挑 5-8 道有把握的题做，其余猜答案。
+> 数量关系是行测最难的模块，建议策略性放弃难题，主攻基础题。
 
-## 知识体系
+## 模块特点
 
-| 专题 | 状态 | 文档 |
-|------|------|------|
-| 工程问题 | 📝 待完善 | [工程问题](gongcheng.md) |
-| 排列组合与概率 | 📝 待完善 | [排列组合](pailie.md) |
+| 维度 | 说明 |
+|------|------|
+| 题量 | 10-15 题 |
+| 分值 | 约 10-15 分 |
+| 建议用时 | 按能力（10-20 分钟） |
+| 提分难度 | ⭐⭐⭐⭐ 高（需要数学基础） |
+| 目标正确率 | 60%+（6-9 题） |
+
+## 两大题型
+
+| 题型 | 题量 | 特点 | 链接 |
+|------|------|------|------|
+| 数学运算 | 8-12 题 | 应用题，考查数学思维 | [工程问题](gongcheng.md)、[排列组合](pailie.md) |
+| 数字推理 | 0-3 题 | 找规律（近年减少） | — |
+
+## 策略性做题
+
+### 第一步：快速浏览（1 分钟）
+
+- 浏览所有题目
+- 标记"一看就会"的题
+- 跳过"一看就懵"的题
+
+### 第二步：先做基础题（5-8 分钟）
+
+- 工程问题、行程问题、利润问题
+- 用公式直接套
+
+### 第三步：挑难题做（5-10 分钟）
+
+- 排列组合、概率问题
+- 能做就做，不能就猜
+
+### 第四步：蒙题技巧
+
+- 选项中有明显不同的数字，优先排除
+- 选项中有整数，优先考虑
+- 实在不会，选 B 或 C
+
+## 常考题型
+
+| 题型 | 难度 | 出题频率 | 优先级 |
+|------|------|----------|--------|
+| 工程问题 | ⭐⭐ | 高 | 必做 |
+| 行程问题 | ⭐⭐⭐ | 高 | 尽量做 |
+| 利润问题 | ⭐⭐ | 中 | 必做 |
+| 排列组合 | ⭐⭐⭐⭐ | 中 | 挑着做 |
+| 概率问题 | ⭐⭐⭐⭐ | 中 | 挑着做 |
+| 几何问题 | ⭐⭐⭐ | 低 | 看情况 |
 
 ## B站视频资源
 
-- [数量关系终极秒题技巧](https://www.bilibili.com/video/BV1wZPWziEXj/)
-- [数量关系36式（合集）](https://www.bilibili.com/video/BV11T4y1Y7qH/) — 公考果冻
-- [王炎数量关系·讲练大满贯](https://www.bilibili.com/video/BV14TaJzwEm4/) — 上岸村王炎数资
-- [工程问题](https://www.bilibili.com/video/BV1Jr421F7UC/) — 砺行公考
-- [排列组合学习指南](https://www.bilibili.com/video/BV1iA4m1P7Fu/) — 一数
-- [2025国考数量真题复盘](https://www.bilibili.com/video/BV1xxCsB9Eam/)
+- [王炎数量关系·讲练大满贯](https://www.bilibili.com/video/BV14TaJzwEm4/) — 王炎 — 系统讲解常考题型
+- [数量关系秒杀技巧](https://www.bilibili.com/video/BV1vekYB4EvG/) — 快速解题方法
+
+## 相关学习记录
+
+<div class="related-posts">
+  <div class="related-posts__title">关联博客文章</div>
+  <div class="related-posts__list">
+    <a class="related-post" href="/blog/posts/2026-06-23-day1/">
+      <span class="related-post__date">2026-06-23</span>
+      <div>
+        <div class="related-post__title">Day 1：国考入门认知</div>
+        <div class="related-post__summary">行测五大模块、申论五大题型、备考节奏</div>
+      </div>
+    </a>
+  </div>
+</div>

@@ -1,42 +1,69 @@
 ﻿---
 title: 资料分析
-description: 行测资料分析模块备考笔记
+description: 行测提分最快的模块，必须拿高分
 tags: [行测, 资料分析]
 date: 2026-06-23
-iteration: 1
-status: draft
-category: xingce/ziliao
+iteration: 2
+status: done
+module: xingce/ziliao
 ---
 
 # 资料分析
 
-!!! success "提分性价比最高的模块"
-    资料分析是行测中**最容易通过训练提分**的模块。掌握公式+速算技巧后，
-    正确率可以稳定在 85%-95%。建议每天至少练 1-2 篇。
+> 资料分析是行测中**提分最快**的模块，目标正确率 85%+（17/20 题）。
 
-## 知识体系
+## 模块特点
 
-| 专题 | 状态 | 文档 |
-|------|------|------|
-| 速算技巧 | 📝 待完善 | [速算技巧](suansuan.md) |
-| 公式体系 | 📝 待完善 | [公式体系](gongshi.md) |
-| 真题精讲 | 📝 待完善 | [真题精讲](zhenti.md) |
+| 维度 | 说明 |
+|------|------|
+| 题量 | 20 题（4 篇材料，每篇 5 题） |
+| 分值 | 约 20 分（每题 1 分） |
+| 建议用时 | 25-30 分钟 |
+| 提分难度 | ⭐⭐ 低（方法+练习即可） |
+| 目标正确率 | 85%+（17 题以上） |
 
-## 核心考点
+## 核心能力
 
-- 基期/现期/增长量/增长率
-- 比重（现期比重、基期比重、比重变化）
-- 倍数与翻番
-- 平均数（现期平均、基期平均、平均数增长率）
-- 年均增长率
-- 间隔增长率
+1. **阅读能力**：快速定位数据、理解材料结构
+2. **速算能力**：截位直除、特征数字法、错位加减
+3. **公式应用**：增长率、增长量、比重、倍数、平均数
+
+## 学习路径
+
+```mermaid
+graph LR
+    A[速算技巧] --> B[公式体系]
+    B --> C[真题精讲]
+    C --> D[限时刷题]
+    style A fill:#4CAF50,color:#fff
+    style D fill:#FF9800,color:#fff
+```
+
+## 知识点导航
+
+| 主题 | 链接 | 优先级 |
+|------|------|--------|
+| 速算技巧 | [速算技巧](suansuan.md) | ⭐⭐⭐⭐⭐ |
+| 公式体系 | [公式体系](gongshi.md) | ⭐⭐⭐⭐⭐ |
+| 真题精讲 | [真题精讲](zhenti.md) | ⭐⭐⭐⭐ |
 
 ## B站视频资源
 
-- [资料分析十大速算技巧](https://www.bilibili.com/video/BV1T2421N7tF/) — 公考宋捏捏
-- [资料分析提速-速算篇（花生十三浓缩版）](https://www.bilibili.com/video/BV1pY411o723/) — 公考哲子
-- [底层逻辑梳理资料分析公式](https://www.bilibili.com/video/BV1uYHSz8ENt/) — 公考宋捏捏
-- [资料分析の基期量和增长量计算](https://www.bilibili.com/video/BV1Xr4y1B7Ke/) — 网友红领巾
-- [资料分析真的不是计算！思维最重要！](https://www.bilibili.com/video/BV1FK411b7AM/) — 公考常十六
-- [资料分析系统课](https://www.bilibili.com/video/BV1f4411C7z5/) — 刘文超
-- [2026高照资料分析实战理论班](https://www.bilibili.com/video/BV198736AEMu/) — 高照
+- [资料分析系统课](https://www.bilibili.com/video/BV1f4411C7z5/) — 刘文超 — 系统讲解，适合打基础
+- [2026高照资料分析实战理论班](https://www.bilibili.com/video/BV198736AEMu/) — 高照 — 16 讲实战技巧
+- [资料分析速算技巧](https://www.bilibili.com/video/BV1YnMQzuEVH/) — 速算方法专项
+
+## 相关学习记录
+
+<div class="related-posts">
+  <div class="related-posts__title">关联博客文章</div>
+  <div class="related-posts__list">
+    <a class="related-post" href="/blog/posts/2026-06-24-day2/">
+      <span class="related-post__date">2026-06-24</span>
+      <div>
+        <div class="related-post__title">Day 2：资料分析速算入门</div>
+        <div class="related-post__summary">学习截位直除、特征数字法、错位加减</div>
+      </div>
+    </a>
+  </div>
+</div>
