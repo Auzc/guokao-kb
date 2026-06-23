@@ -1,0 +1,97 @@
+﻿{% extends "base.html" %}
+
+{% block tabs %}
+  {{ super() }}
+  {% if page.is_home %}
+    <style>
+      .md-sidebar--primary {
+        display: none;
+      }
+      .md-sidebar--secondary {
+        display: none;
+      }
+      .md-content {
+        max-width: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      .md-main {
+        min-height: auto;
+      }
+      .home-hero {
+        text-align: center;
+        padding: 4rem 2rem;
+        background: linear-gradient(135deg, #1a237e 0%, #283593 50%, #1565c0 100%);
+        color: white;
+        border-radius: 0 0 24px 24px;
+        margin-bottom: 2rem;
+      }
+      .home-hero h1 {
+        color: white;
+        border-bottom: none;
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+        animation: fadeInUp 0.6s ease-out;
+      }
+      .home-hero p {
+        font-size: 1.3rem;
+        opacity: 0.9;
+        margin-top: 1rem;
+        animation: fadeInUp 0.6s ease-out 0.2s both;
+      }
+      .home-stats {
+        display: flex;
+        justify-content: center;
+        gap: 3rem;
+        margin-top: 2rem;
+        animation: fadeInUp 0.6s ease-out 0.4s both;
+      }
+      .home-stat {
+        text-align: center;
+      }
+      .home-stat-number {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: white;
+      }
+      .home-stat-label {
+        font-size: 0.9rem;
+        opacity: 0.8;
+        margin-top: 0.25rem;
+      }
+      @keyframes fadeInUp {
+        from { opacity: 0; transform: translateY(20px); }
+        to { opacity: 1; transform: translateY(0); }
+      }
+    </style>
+    <section class="home-hero">
+      <h1>📘 2026 国考备考知识库</h1>
+      <p>行测 · 申论 · 真题 · 模考 — 系统化备考，迭代式积累</p>
+      <div class="home-stats">
+        <div class="home-stat">
+          <div class="home-stat-number">90+</div>
+          <div class="home-stat-label">B站视频资源</div>
+        </div>
+        <div class="home-stat">
+          <div class="home-stat-number">39</div>
+          <div class="home-stat-label">知识文档</div>
+        </div>
+        <div class="home-stat">
+          <div class="home-stat-number">10</div>
+          <div class="home-stat-label">模块分类</div>
+        </div>
+      </div>
+    </section>
+  {% endif %}
+{% endblock %}
+
+{% block content %}
+  {% if page.is_home %}
+    <div class="md-content" style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+      {{ page.content }}
+    </div>
+  {% else %}
+    {{ super() }}
+  {% endif %}
+{% endblock %}
