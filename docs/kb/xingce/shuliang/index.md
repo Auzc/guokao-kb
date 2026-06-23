@@ -83,3 +83,8 @@ module: xingce/shuliang
     </a>
   </div>
 </div>
+
+## 相关研究
+
+- [主流通关路径图](../../../research/pathway.md) — 基于样本库的备考路径量化分析
+- [成绩追踪与ROI分析](../../../research/score-tracker.md) — 成绩追踪模板与ROI计算方法

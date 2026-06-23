@@ -36,3 +36,8 @@ category: shenlun/guina
 - [第一步：申论是什么](https://www.bilibili.com/video/BV1xyoDYNEwR/) — 上岸仓
 - [归纳概括特点/特征](https://www.bilibili.com/video/BV11c411t7tg/) — 长安花公考
 - [归纳概括题｜三步法详解+2025真题演示](https://www.bilibili.com/video/BV1nYcFz9Eww/) — 桃子带你高效上岸
+
+## 相关研究
+
+- [主流通关路径图](../../../research/pathway.md) — 基于样本库的备考路径量化分析
+- [成绩追踪与ROI分析](../../../research/score-tracker.md) — 成绩追踪模板与ROI计算方法

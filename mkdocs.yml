@@ -147,7 +147,13 @@ nav:
       - 提出对策: kb/shenlun/tichu/index.md
       - 贯彻执行: kb/shenlun/guanche/index.md
       - 大作文: kb/shenlun/dazuowen/index.md
-    - 真题库: kb/zhenti/index.md
+    - 真题库:
+      - kb/zhenti/index.md
+      - 2026国考: kb/zhenti/2026.md
+      - 2025国考: kb/zhenti/2025.md
+      - 2024国考: kb/zhenti/2024.md
+      - 2023国考: kb/zhenti/2023.md
+      - 2022国考: kb/zhenti/2022.md
     - 模考记录: kb/mokao/index.md
   - 博客:
     - blog/index.md
@@ -160,5 +166,6 @@ nav:
   - 样本与研究:
     - research/index.md
     - 主流通用路径图: research/pathway.md
+    - 成绩追踪与ROI分析: research/score-tracker.md
   - 迭代日志: changelog.md
 

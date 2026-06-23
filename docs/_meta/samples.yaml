@@ -254,3 +254,195 @@ samples:
     actionability_score: 9
     consistency_score: 8
     notes: 冲刺阶段每周2-3次模考，配合错题复盘表。
+
+  - id: guide-time-allocation-xingce
+    type: guide_pattern
+    title: 行测时间分配共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/ziliao, xingce/panduan, xingce/yanyu, xingce/shuliang, xingce/changshi]
+    tags: [时间分配, 考场策略]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 常识10-15分钟，资料25-30分钟，判断30-35分钟，言语30-35分钟，数量剩余时间。
+
+  - id: guide-weakness-loop
+    type: guide_pattern
+    title: 错题闭环复盘共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/ziliao, xingce/panduan, xingce/yanyu, shenlun/guina, shenlun/guanche]
+    tags: [复盘, 错题, 闭环]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 9
+    notes: 建立“错题-错因-回补模块-再测”的学习闭环。
+
+  - id: guide-material-reading
+    type: guide_pattern
+    title: 申论材料阅读共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/tichu, shenlun/guanche]
+    tags: [申论, 材料阅读, 要点提取]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 9
+    notes: 先看问题再读材料，分层标注问题/原因/对策/效果。
+
+  - id: guide-essay-framework
+    type: guide_pattern
+    title: 大作文结构稳定共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/dazuowen]
+    tags: [大作文, 结构, 审题]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 7
+    actionability_score: 9
+    consistency_score: 8
+    notes: 推荐五段式结构，先练段落论证，再练完整成文。
+
+  - id: guide-official-doc-formats
+    type: guide_pattern
+    title: 贯彻执行格式共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/guanche]
+    tags: [贯彻执行, 格式, 文种]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 7
+    actionability_score: 9
+    consistency_score: 8
+    notes: 高频文种先做模板卡，避免格式丢分。
+
+  - id: guide-logic-structured-practice
+    type: guide_pattern
+    title: 判断推理分题型训练共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/panduan]
+    tags: [判断推理, 图形, 逻辑, 类比, 定义]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 建议按题型拆练，图形和逻辑优先建立规律化思维。
+
+  - id: guide-changshi-priority
+    type: guide_pattern
+    title: 常识判断优先主题共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/changshi]
+    tags: [常识, 法律, 时政]
+    credibility: high
+    operability: medium
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 时政与法律优先，科技人文作为补充。
+
+  - id: guide-shuliang-basic-first
+    type: guide_pattern
+    title: 数量关系基础题优先共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [xingce/shuliang]
+    tags: [数量关系, 工程, 利润, 行程]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 时间有限时优先工程、利润、行程基础题。
+
+  - id: guide-weekend-simulation
+    type: guide_pattern
+    title: 周末真题模拟共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [zhenti, mokao]
+    tags: [模拟, 周末, 套卷]
+    credibility: high
+    operability: high
+    verifiability: high
+    coverage_score: 8
+    actionability_score: 9
+    consistency_score: 8
+    notes: 工作日练专项，周末做整卷模拟与复盘。
+
+  - id: guide-shenlun-writing-language
+    type: guide_pattern
+    title: 申论语言规范化共识
+    source: 综合攻略
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/tichu, shenlun/guanche, shenlun/dazuowen]
+    tags: [申论, 语言, 规范]
+    credibility: high
+    operability: medium
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 避免口语化，使用政策治理表达。
+
+  - id: guide-research-expand-sample
+    type: guide_pattern
+    title: 研究层扩样本共识
+    source: 研究方法
+    author: 综合
+    url: https://github.com/Auzc/guokao-kb
+    modules: [research]
+    tags: [研究, 样本, 量化]
+    credibility: medium
+    operability: high
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 样本量提升到30~50可增强路径置信度。
+
+  - id: bilibili-chenji-shenlun
+    type: video_course
+    title: 申论真题方法课（示例样本）
+    source: B站
+    author: 综合归纳
+    url: https://github.com/Auzc/guokao-kb
+    modules: [shenlun/guina, shenlun/zonghe, shenlun/guanche]
+    tags: [申论, 真题, 方法]
+    credibility: medium
+    operability: high
+    verifiability: medium
+    coverage_score: 7
+    actionability_score: 8
+    consistency_score: 7
+    notes: 用于补强申论方法到真题转化的样本类型。
